@@ -5,5 +5,3 @@ Mansfield CIS 3325 Project folder
 		Jason O'Donnell
 		Junxian Li
 		Dong Chen
-
-
