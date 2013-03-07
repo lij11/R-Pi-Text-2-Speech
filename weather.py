@@ -12,6 +12,7 @@ d = feedparser.parse('http://weather.yahooapis.com/forecastrss?w=2444988')
 condition = j.findall(str((d['items'][0]['yweather_condition'])))
 forecast =  j.findall(str((d['items'][0]['yweather_forecast'])))
 
+#Need to keep string sizes down or get errors.
 weather = "./speech.sh Here is the weather for Mansfield Pennsylvania."
 current = "./speech.sh Currently: " + condition[3] + " and " + condition[7] + " degrees."
 forecast = "./speech.sh Forecast: " + forecast[3] + " and " + forecast[7] + " degrees."
