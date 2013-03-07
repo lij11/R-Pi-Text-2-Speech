@@ -13,7 +13,6 @@ from Adafruit_MCP230xx import Adafruit_MCP230XX
 import smbus
 import string
 import pywapi
-import subprocess
 
 mcp = Adafruit_MCP230XX(busnum = 0, address = 0x20, num_gpios = 16)
 
