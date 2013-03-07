@@ -20,7 +20,7 @@ mcp = Adafruit_MCP230XX(busnum = 0, address = 0x20, num_gpios = 16)
 lcd = Adafruit_CharLCD(15, 13, [12,11,10,9], 14)
 lcd.clear()
 lcd.backlight(lcd.GREEN)
-lcd.message("Wizard Pi\nJason O'Donnell")
+lcd.message("A TEAM\nTXT2VOICE")
 sleep(2)
 cmd = "ip addr show wlan0 | grep inet | awk '{print $2}' | cut -d/ -f1"
 cmd2 = "ip addr show eth0 | grep inet | awk '{print $2}' | cut -d/ -f1"
