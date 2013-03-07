@@ -93,4 +93,4 @@ while 1:
 	if (not mcp.input(lcd.SELECT)):
 		lcd.backlight(lcd.GREEN)
 		lcd.clear()
-		lcd.message("Wizard Pi\nJason O'Donnell")
+		lcd.message("A TEAM\nTXT2VOICE")
